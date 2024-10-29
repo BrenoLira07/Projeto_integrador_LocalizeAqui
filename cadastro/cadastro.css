@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, #017BB5, #39C5E8);
+    background: white;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.1);
+    background: linear-gradient(90deg, #017BB5, #39C5E8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

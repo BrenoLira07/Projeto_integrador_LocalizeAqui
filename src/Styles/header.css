@@ -15,15 +15,16 @@ header {
     justify-content: space-between;
 }
 
-#nav-logo {
-    font-size: 24px;
-    color: #ffffff;
-}
 
 #nav-list {
     display: flex;
     list-style: none;
     gap: 48px;
+    transition: color 0.3 ease;
+}
+
+#nav-list:hover {
+    color: #39C5E8;
 }
 
 .nav-item  a {
@@ -31,6 +32,7 @@ header {
     color: #1d1d1d;
     font-weight: 600;
 }
+
 
 #navbar img {
     width: 200px;
